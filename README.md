@@ -1,0 +1,64 @@
+## **Digital Trumpet - Valve-Based MIDI Wind Controller**
+
+A fully functional digital trumpet using valve buttons and octave selection, displaying real-time note information on a 0.96" OLED screen with audio output through a built-in amplifier. Perfect for your desk!
+
+## **Inspiration**
+
+I love music and I play the trumpet so I wanted to be able to take that kind of sound into the digital world. This uses accurate trumpet fingerings with added octave buttons
+
+
+## **Challenges**
+
+I had to learn new software, EasyEDA and Onshape which was difficult. But i LOVE THEM now.
+
+THANKS HACK CLUB!
+
+## **Specifications**
+
+| No. | Quantity | Designator | Footprint | Value | Manufacturer Part | Manufacturer | Supplier Part | Supplier | LCSC Price | JLCPCB Price | Primary Category | Secondary Category | Pin Count | LCSC Stock | JLCPCB Stock | Mounting Style | Layer |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 17 | C1,C2,C7,C8,C9,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C23 | C0805 | 100nF | CC0805KRX7R9BB104 | YAGEO(国巨) | C49678 | LCSC |  | 0.0007 | Capacitors | Multilayer Ceramic Capacitors MLCC - SMD/SMT | 2 |  | 9620872 | SMT | T |
+| 2 | 2 | C3,C4 | C0402 | 22pF | 0402CG220J500NT | FH(风华) | C1555 | LCSC |  | 0.0002 | Capacitors | Multilayer Ceramic Capacitors MLCC - SMD/SMT | 2 |  | 2013915 | SMT | T |
+| 3 | 2 | C5,C6 | C0805 | 10uF | CL21A106KAYNNNE | SAMSUNG(三星) | C15850 | LCSC |  | 0.0014 | Capacitors | Multilayer Ceramic Capacitors MLCC - SMD/SMT | 2 |  | 11048581 | SMT | T |
+| 4 | 2 | C10,C22 | C0805 | 1uF | CL21B105KBFNNNE | SAMSUNG(三星) | C28323 | LCSC |  | 0.0013 | Capacitors | Multilayer Ceramic Capacitors MLCC - SMD/SMT | 2 |  | 7404801 | SMT | T |
+| 5 | 2 | C24,C25 | CAP-TH_BD6.3-P2.50-D1.0-FD | 220uF | KM227M016E11RR0VH2FP0 | Chengx(承兴) | C43349 | LCSC |  | 0.0032 | Capacitors | Aluminum Electrolytic Capacitors - Leaded | 2 |  | 223698 | DIP | T |
+| 6 | 2 | Q1,Q2 | SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR |  | MMBT5551(RANGE:200-300) | CJ(江苏长电/长晶) | C2145 | LCSC |  | 0.0017 | Transistors/Thyristors | Bipolar (BJT) | 3 |  | 3542439 | SMT | T |
+| 7 | 2 | R1,R2 | R0805 | 5.1kΩ | 0805W8F5101T5E | UNI-ROYAL(厚声) | C27834 | LCSC |  | 0.0003 | Resistors | Chip Resistor - Surface Mount | 2 |  | 4904293 | SMT | T |
+| 8 | 12 | R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14 | R0805 | 10kΩ | 0805W8F1002T5E | UNI-ROYAL(厚声) | C17414 | LCSC |  | 0.0003 | Resistors | Chip Resistor - Surface Mount | 2 |  | 29504279 | SMT | T |
+| 9 | 1 | R15 | R0805 | 1kΩ | 0805W8F1001T5E | UNI-ROYAL(厚声) | C17513 | LCSC |  | 0.0003 | Resistors | Chip Resistor - Surface Mount | 2 |  | 11865611 | SMT | T |
+| 10 | 1 | R16 | RES-ADJ-TH_RK09L1140A5P | 10kΩ | RK09L114001T | ALPSALPINE(阿尔卑斯阿尔派) | C470463 | LCSC |  | 0.1888 | Resistors | Potentiometers, Variable Resistors | 5 |  | 1978 | DIP | T |
+| 11 | 1 | SPK1 | SPK-TH_BD23.0-P10.00-D0.8-L-RD |  | GSPK2307P-8R1W | INGHAi(赢海) | C530531 | LCSC |  | 0.1119 | Audio Products / Vibration Motors | Speakers | 2 |  | 4263 | DIP | T |
+| 12 | 9 | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9 | SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5 |  | TS-1187A-B-A-B | XKB Connection(中国星坤) | C318884 | LCSC |  | 0.0027 | Switches | Tactile Switches | 4 |  | 721279 | SMT | T |
+| 13 | 1 | U1 | SOP-16_L10.0-W3.9-P1.27-LS6.0-BL |  | CH340C | WCH(南京沁恒) | C84681 | LCSC |  | 0.0744 | Interface | USB Converters | 16 |  | 10582 | SMT | T |
+| 14 | 1 | U2 | SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR |  | AMS1117-3.3 | AMS | C6186 | LCSC |  | 0.0227 | Power Management (PMIC) | Voltage Regulators - Linear, Low Drop Out (LDO) Regulators | 4 |  | 962381 | SMT | T |
+| 15 | 1 | U3 | WIFI-SMD_ESP32-WROOM-32E |  | ESP32-WROOM-32E-N4 | ESPRESSIF(乐鑫) | C701341 | LCSC |  | 0.5028 | IoT/Communication Modules | WiFi Modules | 47 |  | 19208 | SMT | T |
+| 16 | 1 | U4 | OLED-TH_L27.8-W27.2-P2.54_C9900033791 |  | HS96L03W2C03 | HS(汉昇) | C5248080 | LCSC |  | 0.2816 | Displays | OLED Display | 4 |  | 7452 | DIP | T |
+| 17 | 1 | U5 | MSOP-8_L3.0-W3.0-P0.65-LS5.0-BL |  | PAM8302AASCR | DIODES(美台) | C113367 | LCSC |  | 0.0249 | Amplifiers/Comparators | Audio Amplifiers | 8 |  | 15387 | SMT | T |
+| 18 | 1 | U6 | AUDIO-TH_PJ-320A-4P-DIP |  | PJ-320A-4P DIP | SHOU HAN(首韩) | C18185602 | LCSC |  | 0.007 | Connectors | Audio Connectors | 4 |  | 10640 | DIP | T |
+| 19 | 1 | USBC1 | USB-C_SMD-TYPE-C-31-M-12_1 |  | TYPE-C-31-M-12 | 韩国韩荣 | C165948 | LCSC |  | 0.0242 | Connectors | USB Connectors | 16 |  | 241717 | DIP | T |
+| THE FOLLOWING ARE NOT INCLUDED IN THE STRUCTURE OF THE ABOVE BOM, AND ARE MEANT FOR OTHER PARTS OF THE PROJECT | QTY | NAME | PRICE | LINK |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 20 | 4 | M2 SCREWS | 4.91 | https://www.aliexpress.us/item/3256807088271853.html?spm=a2g0o.productlist.main.4.a934JO78JO78OY&aem_p4p_detail=202512141116423606091713891360001620195&algo_pvid=3b4552c4-7910-43ab-bae9-75c9375cf91a&algo_exp_id=3b4552c4-7910-43ab-bae9-75c9375cf91a-3&pdp_ext_f=%7B"order"%3A"968"%2C"eval"%3A"1"%2C"fromPage"%3A"search"%7D&pdp_npi=6%40dis%21USD%215.18%214.91%21%21%215.18%214.91%21%402101c44f17657398024198653efc3b%2112000040030168809%21sea%21US%213031952535%21X%211%210%21n_tag%3A-29919%3Bd%3A99553acd%3Bm03_new_user%3A-29895&curPageLogUid=ZOU9OMfbvggj&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007274586605%7C_p_origin_prod%3A&search_p4p_id=202512141116423606091713891360001620195_2 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 21 | 1 | 3D PRINTED CASE ALL PCS | ~$5-$10 | #printing-legion |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+## **Wiring and Schematic**
+
+The circuit uses USB-C for power and programming, I2C interface for the OLED, nine active-LOW buttons with pull-ups and debounce caps, and the ESP32's built-in DAC for audio generation through a Class-D amplifier.
+
+## **Visuals**
+<img width="1567" height="973" alt="Screenshot 2025-12-13 085148" src="https://github.com/user-attachments/assets/69242a24-fbea-48b4-8d96-ba8bef434d60" />
+<img width="1081" height="723" alt="Screenshot 2025-12-13 085113" src="https://github.com/user-attachments/assets/1d0f105c-3180-4e09-a65b-41443c027e53" />
+<img width="509" height="394" alt="Screenshot 2025-12-13 085108" src="https://github.com/user-attachments/assets/53241ce8-fd11-47b7-a458-05f49c02cddd" />
+<img width="1454" height="983" alt="Screenshot 2025-12-13 085058" src="https://github.com/user-attachments/assets/ed58cca0-1943-424c-bec1-948b4c68d7ba" />
+<img width="1221" height="741" alt="Screenshot 2025-12-14 114440" src="https://github.com/user-attachments/assets/dce3bd8f-3bce-4e37-b0cc-2b7b7a1fcc14" />
+<img width="1658" height="996" alt="Screenshot 2025-12-14 114405" src="https://github.com/user-attachments/assets/169c774e-9fa0-408c-a059-e4894cb56c5d" />
+<img width="935" height="827" alt="Screenshot 2025-12-14 113926" src="https://github.com/user-attachments/assets/d48f75dd-f2fe-4e63-bd3d-d787125404fd" />
+<img width="1504" height="1068" alt="Screenshot 2025-12-13 085159" src="https://github.com/user-attachments/assets/273af6eb-e05b-45df-bb18-cf5dcbb22fe8" />
+
+
+## **Getting Started**
+
+1. Flash Firmware: Connect USB-C cable, the auto-reset circuit will automatically enter bootloader mode when uploading.
+2. Test Buttons: Verify all nine buttons register correctly on the OLED display.
+3. Audio Check: Press sound enable (SW9) and test valve combinations across all octave ranges.
+4. Volume Adjustment: Turn the potentiometer to set comfortable listening level.
