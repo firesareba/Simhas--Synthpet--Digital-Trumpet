@@ -4,18 +4,18 @@
 #include <Adafruit_SSD1306.h>
 #include <driver/dac.h>
 
-#define VALVE1_PIN 19    // SW1 - First valve
-#define VALVE2_PIN 21    // SW2 - Second valve
-#define VALVE3_PIN 22    // SW3 - Third valve
+#define VALVE1_PIN 19    
+#define VALVE2_PIN 21    
+#define VALVE3_PIN 22    
 
-#define OCTAVE1_PIN 18   // SW4
-#define OCTAVE2_PIN 5    // SW5
-#define OCTAVE3_PIN 17   // SW6
-#define OCTAVE4_PIN 16   // SW7
-#define OCTAVE5_PIN 4    // SW8
+#define OCTAVE1_PIN 18   
+#define OCTAVE2_PIN 5    
+#define OCTAVE3_PIN 17   
+#define OCTAVE4_PIN 16   
+#define OCTAVE5_PIN 4    
 
-#define SOUND_EN_PIN 15  // SW9 - Sound enable
-#define DAC_PIN 25       // GPIO25 - DAC1 output
+#define SOUND_EN_PIN 15  
+#define DAC_PIN 25      
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
